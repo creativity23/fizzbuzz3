@@ -6,7 +6,7 @@ document.getElementById("btn-Submit").addEventListener("click", function(){
     let storage = [];
      console.log(input1);
     for (let loop = 1;loop <= 100; loop++) {
-        if(loop % input1==0 && loop % input2 == 0) {
+        if(loop % input1 == 0 && loop % input2 == 0) {
             storage.push("fizzbuzz");
         }   
         else if (loop % input1 == 0){
